@@ -1,0 +1,43 @@
+.eachQuestion{
+    background: #80808038;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.questionText {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+} 
+.answerButtons {
+    display: flex;
+    gap: .7rem;
+}
+.giveAnswer {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow-x: auto;
+    max-width: 100%;
+
+}
+.detail>div{
+    display: flex;
+    gap: 10px;
+}
+
+.detail>div:hover{
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
