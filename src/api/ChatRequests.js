@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: 'https://bdu-app-server-api.onrender.com' });
 
 export const createChat = (data) => API.post('/chat/new', data);
 
