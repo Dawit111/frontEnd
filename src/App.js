@@ -18,14 +18,14 @@ function App() {
       className="App"
       style={{
         height:
-          window.location.href === "http://localhost:3000/chat"
+          window.location.href === "https://bdu-web-app.onrender.com/chat"
             ? "calc(100vh - 2rem)"
             : "auto",
       }}
     >
       <div className="blur" style={{ top: "-18%", right: "0" }}></div>
       <div className="blur" style={{ top: "36%", left: "-8rem" }}></div>
-      <Routes basename="/frontEnd">
+      <Routes>
         <Route
           path="/"
           element={user ? <Navigate to="home" /> : <Navigate to="auth" />}
